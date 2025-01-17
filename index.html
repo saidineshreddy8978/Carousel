@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+      body {
+        background-color: greenyellow;
+      }
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+      }
+      .previous{
+        width: 60px;
+        position: absolute;
+        top: 50vh;
+        cursor: pointer;
+        left: 5vw;
+
+      }
+      .next{
+        width:60px;
+        position: absolute;
+        right: 0;
+        top: 50vh;
+        cursor: pointer;
+        right: 5vw;
+
+      }
+      .image{
+        width: 100vw;
+        height:100vh;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="" alt="" class="image" />
+      <img src="./icons8-left-arrow-100.png" alt="" class="previous" />
+      <img src="./icons8-right-arrow-100.png" alt="" class="next"/>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
